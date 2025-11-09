@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite Badge"/>
   <img src="https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI Badge"/>
   <img src="https://img.shields.io/badge/OpenWeather-FF9800?style=for-the-badge&logo=cloudflare&logoColor=white" alt="OpenWeather Badge"/>
-  <img src="https://img.shields.io/github/license/asoleshubham0125/Weather-Widgets?style=for-the-badge" alt="License Badge"/>
 </p>
 
 ---
@@ -75,13 +74,11 @@ VITE_WEATHER_API_KEY=your_openweather_api_key_here
 
 ## 📸 Preview
 
-(Add your screenshot or GIF here — e.g., `public/preview.png`)
+(`public/preview.png`)
 
-```
 <p align="center">
   <img src="https://github.com/asoleshubham0125/Weather-Widgets/blob/main/public/preview.png" alt="App Preview" width="700"/>
 </p>
-```
 
 ---
 
@@ -128,12 +125,10 @@ mini-react-project/
 
 ---
 
-```
 <p align="center">
   <b>⭐ If you like this project, consider giving it a star on GitHub!</b>
   <br/>
   <img src="https://img.shields.io/github/stars/asoleshubham0125/Weather-Widgets?style=social" alt="GitHub stars"/>
 </p>
-```
 
 ---
