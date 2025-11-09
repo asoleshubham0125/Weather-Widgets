@@ -74,8 +74,6 @@ VITE_WEATHER_API_KEY=your_openweather_api_key_here
 
 ## 📸 Preview
 
-(`public/preview.png`)
-
 <p align="center">
   <img src="https://github.com/asoleshubham0125/Weather-Widgets/blob/main/public/preview.png" alt="App Preview" width="700"/>
 </p>
