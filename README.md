@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite Badge"/>
   <img src="https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI Badge"/>
   <img src="https://img.shields.io/badge/OpenWeather-FF9800?style=for-the-badge&logo=cloudflare&logoColor=white" alt="OpenWeather Badge"/>
-  <img src="https://img.shields.io/github/license/asoleshubham0125/Weather-Widgets?style=for-the-badge" alt="License Badge"/>
 </p>
 
 ---
