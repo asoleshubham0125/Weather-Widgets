@@ -1,0 +1,20 @@
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-card {
+  background: rgb(245, 238, 238);
+  padding: 2rem 3rem;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+.weather-card h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}

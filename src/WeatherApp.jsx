@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InfoBox from "./InfoBox";
 import SearchBox from "./SearchBox";
+import "./WeatherApp.css";
 
 export default function WeatherApp() {
   let [weatherInfo, setWeatherInfo] = useState({
@@ -19,10 +20,12 @@ export default function WeatherApp() {
 
   return (
     <>
-      <div style={{ textAlign: "center" }}>
-        <h2>Weather App</h2>
-        <SearchBox updateInfo={updateInfo} />
-        <InfoBox info={weatherInfo} />
+      <div className="weather-container">
+        <div className="weather-card">
+          <h2>Weather App</h2>
+          <SearchBox updateInfo={updateInfo} />
+          <InfoBox info={weatherInfo} />
+        </div>
       </div>
     </>
   );
