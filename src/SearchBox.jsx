@@ -14,6 +14,12 @@ export default function SearchBox({ updateInfo }) {
   let getCoordinates = async (city) => {
     let response = await fetch(`${GEO_URL}?q=${city}&limit=1&appid=${API_KEY}`);
     let jsonResp = await response.json();
+
+    // FIX: safely check for empty OR invalid response
+    if (!Array.isArray(jsonResp) || jsonResp.length === 0 || !jsonResp[0].lat) {
+      throw new Error("City not found");
+    }
+
     return { lat: jsonResp[0].lat, lon: jsonResp[0].lon };
   };
 
@@ -41,12 +47,14 @@ export default function SearchBox({ updateInfo }) {
   };
 
   let handleSubmit = async (evt) => {
+    evt.preventDefault();
     try {
-      evt.preventDefault();
       let newinfo = await getWeatherInfo(city);
-      setcity("");
-      setError(false);
-      updateInfo(newinfo);
+
+      updateInfo(newinfo); // show weather
+
+      setError(false); // FIX: reset here
+      setcity(""); // reset input
     } catch (err) {
       console.log("Error", err.message);
       setError(true);
