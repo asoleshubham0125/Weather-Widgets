@@ -20,6 +20,12 @@ It’s lightweight, fast ⚡, and perfect for learning or showcasing API integra
 
 ---
 
+## 🔗 Live Demo
+
+👉 **https://weatherwidgets.vercel.app/**
+
+---
+
 ## 🚀 Features
 
 ✨ **Key Highlights**
